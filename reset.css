@@ -22,12 +22,12 @@ thead, time, tr, tt, u, ul, video, wbr /***************************************/
     box-sizing: inherit;
 }
 ::-moz-selection {
-	background: #b3d4fc;
-	text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 ::selection {
-	background: #b3d4fc;
-	text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 html {
     box-sizing: border-box;
@@ -44,8 +44,8 @@ header, hgroup, legend, menu, nav, section /*****/ {
 }
 fieldset {
     border: 1px solid #c0c0c0;
-	margin: 0 2px;
-	padding: 0.35em 0.625em 0.75em;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
 }
 legend {white-space: normal;}
 :focus {outline: none;}
@@ -68,7 +68,7 @@ img {
 }
 img, svg {
     max-width: 100%;
-	height: auto;
+    height: auto;
 }
 address {font-style: normal;}
 audio, canvas, video {
@@ -87,14 +87,14 @@ input[type="search"]::-webkit-search-results-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
-	-moz-appearance: none;
+    -moz-appearance: none;
 }
 input[type="search"] {
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
+    -moz-box-sizing: content-box;
     -webkit-appearance: none;
-	-moz-appearance: none;
+    -moz-appearance: none;
 }
 input[type="checkbox"], input[type="radio"] {
     padding: 0;
@@ -102,14 +102,14 @@ input[type="checkbox"], input[type="radio"] {
     box-sizing: border-box;
 }
 textarea {
-	overflow: auto;
-	vertical-align: top;
-	resize: vertical;
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
 } 
 input[type="submit"], input[type="reset"], input[type="button"],
 button /****************************************************/ {
     border: 0;
-	padding: 0;
+    padding: 0;
     display: inline-block;
     box-shadow: none;
     background: transparent;
