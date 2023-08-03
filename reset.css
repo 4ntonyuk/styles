@@ -49,7 +49,10 @@ fieldset {
 }
 legend {white-space: normal;}
 :focus {outline: none;}
-a:active, a:focus, a:hover {outline: none;}
+a:active, a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+}
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote::after,
