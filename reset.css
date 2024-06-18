@@ -1,12 +1,12 @@
 a, abbr, acronym, address, applet, area, article, aside, audio, b, base, basefont,
 bdi, bdo, big, blockquote, body, br, button, canvas, caption, center, cite, code ,
 colgroup, data, datalist, dd, del, details, dfn, dialog, dir, dl, dt, em, embed  ,
-fieldset, figcaption, figure, font, footer, form, frame, frameset, h1, h2, h3, h4   ,
+fieldset, figcaption, figure, font, footer, form, frame, frameset, h1, h2, h3, h4,
 h5, h6, header, hr, html, i, iframe, img, input, ins, kbd, label, legend, li     ,
 link, main, map, mark, menu, menuitem, meter, nav, noframes, object, ol, optgroup,
 option, output, p, picture, pre, q, rp, rt, ruby ,s, samp, section, small, span  , 
 strike, strong, sub, summary, sup, svg, table, tbody, td, textarea, tfoot, th    , 
-thead, time, tr, tt, u, ul, video, wbr /***************************************/ {
+thead, time, tr, tt, u, ul, video, wbr {
     margin: 0;
     padding: 0;
     border: 0;
@@ -39,7 +39,7 @@ body {
     background: #fff;
 }
 article, aside, details, figcaption, figure, footer,
-header, hgroup, legend, menu, nav, section /*****/ {
+header, hgroup, legend, menu, nav, section {
     display: block;
 }
 fieldset {
@@ -54,7 +54,7 @@ a:active, a:focus, a:hover {outline: none;}
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote::after,
-q::before, q::after /*************/ {
+q::before, q::after {
     content: "";
     content: none;
 }
@@ -108,7 +108,7 @@ textarea {
     resize: vertical;
 } 
 input[type="submit"], input[type="reset"], input[type="button"],
-button /****************************************************/ {
+button {
     border: 0;
     padding: 0;
     display: inline-block;
