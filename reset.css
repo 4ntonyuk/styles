@@ -19,6 +19,7 @@ thead, time, tr, tt, u, ul, video, wbr {
   font: inherit;
   vertical-align: baseline;
   background: transparent;
+  user-select: text;
 }
 *, *::before, *::after {
   margin: 0;
